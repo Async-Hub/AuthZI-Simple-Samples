@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AuthZI.MicrosoftOrleans.IdentityServer.SampleApiAndSiloHost/AuthZI.MicrosoftOrleans.IdentityServer.SampleApiAndSiloHost.csproj" />
+  <Project Path="AuthZI.MicrosoftOrleans.IdentityServer.SampleIdentityServer/AuthZI.MicrosoftOrleans.IdentityServer.SampleIdentityServer.csproj" />
+  <Project Path="AuthZI.MicrosoftOrleans.IdentityServer.SampleWebClient/AuthZI.MicrosoftOrleans.IdentityServer.SampleWebClient.csproj" />
+</Solution>

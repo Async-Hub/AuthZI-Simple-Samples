@@ -1,6 +1,6 @@
-﻿using System.Security.Claims;
-using Duende.IdentityModel;
+﻿using Duende.IdentityModel;
 using Duende.IdentityServer.Test;
+using System.Security.Claims;
 
 namespace AuthZI.MicrosoftOrleans.IdentityServer.SampleIdentityServer;
 
@@ -8,7 +8,7 @@ public static class TestUsers
 {
   public static readonly List<TestUser> Users =
   [
-    new TestUser
+    new()
     {
       SubjectId = "1",
       Username = "alice",
@@ -27,7 +27,7 @@ public static class TestUsers
       ]
     },
 
-    new TestUser
+    new()
     {
       SubjectId = "2",
       Username = "bob",
